@@ -1,0 +1,39 @@
+name: projeto
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.4.1
+  http: ^1.2.2
+  flutter_rating_bar: ^4.0.1
+  flutter_masked_text2: ^0.9.1
+  email_validator: ^3.0.0
+  provider: ^6.0.0
+  shared_preferences: ^2.3.3
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/Logo.png
+    - assets/images/pizza1.jpeg
+    - assets/images/pizza2.jpeg
+    - assets/images/pizza3.jpeg
+    - assets/images/pizza4.jpg
+    - assets/images/pizza5.jpeg
+    - assets/images/pizza6.jpeg
+    - assets/images/pizza7.jpeg
+    - assets/images/pizza8.jpeg
+    - assets/images/pizza9.jpeg
